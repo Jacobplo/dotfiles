@@ -20,7 +20,6 @@
       fzf
       eza
       fastfetch
-      pfetch
       brightnessctl
       gnumake
 
