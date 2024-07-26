@@ -2,7 +2,7 @@
 
 {
   imports = [ 
-    ./hardware-configuration.nix
+#    ./hardware-configuration.nix
   ];
 
   # Bootloader.
@@ -22,7 +22,7 @@
   services.displayManager.sddm = {
     enable = true;
     wayland.enable = true;
-    theme = "${import ./sddm-theme.nix { inherit pkgs; }}";
+    theme = "${import ../derivations/sddm-theme.nix { inherit pkgs; }}";
   };
   
   # Networking.

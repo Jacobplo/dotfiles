@@ -37,13 +37,13 @@
 	        inherit system;
 	        specialArgs = { inherit user inputs; };
 	        modules = [ 
-	          ./configuration.nix
+	          ./nixos
 	          home-manager.nixosModules.home-manager {
 	            home-manager.useGlobalPkgs = true;
 	            home-manager.useUserPackages = true;
 	            home-manager.extraSpecialArgs = { inherit user stylix nixvim nix-colors; };
 	            home-manager.users.${user} = {
-                imports = [ ./home.nix ];
+                imports = [ ./home ];
 	            };
 	          }
 	        ];

@@ -2,6 +2,6 @@
 
 {
   imports = [
-    ./home.nix
+    ./nixvim.nix
   ];
 }

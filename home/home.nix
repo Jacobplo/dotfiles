@@ -4,7 +4,7 @@
   # Home Manager modules.
   imports = [
     stylix.homeManagerModules.stylix
-    ./home
+    ./programs
   ];
 
   home = {
