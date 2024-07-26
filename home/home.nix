@@ -124,7 +124,7 @@
   stylix = {
     enable = true;
     autoEnable = true;
-    image = ./wallpaper.png;
+    image = ../resources/pictures/wallpaper.png;
     polarity = "dark";
     base16Scheme = nix-colors.colorSchemes.gruvbox-material-dark-medium;
     cursor.package = pkgs.phinger-cursors;
